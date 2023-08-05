@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/fonts/font-awesome.min.css">
+    <title>my payee</title>
+    <script defer src="./script/bootstrap.bundle.js"></script>
+    <script defer src="./script/script.js"></script>
+</head>
+<body  >
+    <form class="form-responsive-md"  method="post"  action="./deposit.html" onsubmit="return validation()">
+       <h2>Say Hello!</h2>
+       <label for="name">Your Name</label><br>
+       <input type="text" id="fname" placeholder="Enter your name"><br><br>
+       <label for="email">Email</label><br>
+       <input type="text" id="email" placeholder="Enter your email address"><br><br>
+       <label for="service">Services</label><br>
+        <select class="select" name="service"  id="serve">
+            <option value="choose" id="choose">choose your sevice</option>
+            <option value="web app">web app services</option>
+            <option value="backend">backend development</option>
+            <option value="frontend">frontend development</option>
+            <option value="web">Website development</option>
+        </select><br><br>
+      <label for="service">Project</label><br>
+      <select name="projects" id="proj">
+        <option id="projects">Choose your projects</option>
+       <option value="single">single page web/more</option>
+       <option value="e-comm">E-commerce</option>
+       <option value="startup">Startup</option>
+       <option value="fintech">software as a service(fintech)</option>
+       <option value="digital">Digital marketing</option>
+      </select><br>
+      <label for="elaboration">Elaboration</label>
+      <input type="text" id="elab" placeholder="elaborate...">
+      <button type="submit" >SUBMIT<i class="fa fa-space-shuttle"></i></button>
+    </form>
+</body>
+</html>

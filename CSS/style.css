@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    background:linear-gradient( rgb(255, 0, 225),#ffffff ); 
+    background-size: cover;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+form{
+    background: #fff;
+    width: 30vw;
+    height: 83vh;
+    margin-top: 6pc;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px 2px rgba(34, 34, 34, 0.928),
+    -10px -10px 10px -1px rgba(65, 64, 64, 0.036);
+    ;
+    padding-bottom: 30px !important;
+}
+form h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+form label{
+    margin-left: 20px;
+}
+form input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    width: 87%;
+}
+.position{
+    position: relative !important;
+    top: -28px !important;
+    left: 23pc;
+    list-style: none !important;
+}
+.position2{
+    position: relative !important;
+    top: -24px !important;
+    left: 23pc;
+    list-style: none !important;
+}
+form button{
+    margin-left: 4pc !important;
+    text-align: center;
+    margin-top: 20px !important;
+    border: none;
+    outline: none;
+    width: 70%;
+   background:linear-gradient( rgb(255, 0, 170),#fff ) ;
+   padding: 10px;
+   border-radius:15px ;
+}
+.alertinit{
+    position: fixed !important;
+    top:20px ;
+    left:40%;
+}
+select{
+    margin-left: 20px !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    border-bottom: 3px solid gray;
+    padding-bottom: 7px;
+    width: 87%;
+}
+select:hover{
+ color: pink !important;
+}
+.radio{
+    background: blue;
+    display: flex;
+}
+.radio .first{
+    display: flex;
+    align-items: center;
+}
+.normalinput{
+    width: 0%;
+    margin: 0%;
+    padding-bottom:0%;
+    margin-left: 20px;
+}
+@media screen and (max-width:1231.20px) {
+     .position{
+        left:20pc;
+     }
+     .position2{
+        left: 20pc;
+     }
+}
+@media screen and (max-width:1169.60px) {
+    .position{
+       left:18pc;
+    }
+    .position2{
+       left: 18pc;
+    }
+}
+@media screen and (max-width:1064.40px) {
+    form{
+        width: 35vw;
+        margin-top: 4pc;
+    }
+    body{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:908px) {
+    form{
+        width: 38vw;
+    }
+}
+@media screen and (max-width:768px) {
+    body{
+        padding-bottom: 15pc;
+        overflow: hidden;
+    }
+    form{
+        height: 85vh;
+        padding: 10px;
+        width: 50vw;
+    }
+   form button{
+     margin-left: 2pc !important;
+    }
+    form h2{
+        margin-bottom:20px ;
+    }
+    form input{
+        padding-bottom: 3px;
+    }
+}
+@media screen and (max-width:677.60px) {
+    form{
+        width: 55vw;
+    }
+}
+@media screen and (max-width:610.40px) {
+    form{
+        width: 58vw;
+    }
+}
+@media screen and (max-width:584px) {
+    form{
+        width: 63vw;
+    }
+}
+@media screen and (max-width:517.60px) {
+    .position{
+        left:16pc;
+     }
+     .position2{
+        left: 16pc;
+     }
+}
+@media screen and (max-width:480px) {
+     form h2{
+        margin-bottom: 15px;
+     }    
+     form input{
+        padding-bottom: 1px;
+        margin-top: 8px;
+     }
+}
+@media screen and (max-width:466.50px){
+    .position{
+        left:14pc;
+     }
+     .position2{
+        left: 14pc;
+     }
+}
+@media screen and (max-width:423.20px){
+    form{
+        width: 70vw;
+    }
+    body{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width:375px){
+    form{
+        width:75vw;
+    }
+}
+@media screen and (max-width:325px){
+    form{
+        width:89vw;
+    }
+}

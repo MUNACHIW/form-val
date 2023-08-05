@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <title>Document</title>
+    <script defer src="./script/script.js" ></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        background-color: rgb(226, 249, 226);
+        height: 100vh;
+    }
+    .normalizer{
+        height: 20vh;
+    }
+    table{
+      width: 100%;
+    }
+</style>
+<body>
+    <div class="container-fluid  ">
+        <div class="table-responsive  container-fluid">
+      <table class="table table-bodered table-hover table-striped table-fluid">
+        <thead>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Services</th>
+            <th>Project</th>
+        </thead>
+        <tr>
+            <td id="fname"></td>
+            <td id="email"></td>
+            <td id="services"></td>
+            <td id="projects"></td>
+            <td id="gender"></td>
+        </tr>
+    
+      </table>
+      </div>
+      <div class="container container-md normalizer">
+        <p id="elab">
+
+        </p>
+      </div>
+      <button class="btn-success" onclick="window.alert('Printed Successfully')">PRINT</button>
+    </div>
+</body>
+</html>
